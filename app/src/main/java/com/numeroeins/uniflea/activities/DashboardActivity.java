@@ -42,11 +42,12 @@ public class DashboardActivity extends AppCompatActivity {
 
         createDummyData();
         ProductListAdapter productListAdapter=new ProductListAdapter(this,this.list);
+        ProductListAdapter serviceListAdapter=new ProductListAdapter(this,this.list);
         recycleviewForProductList.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false));
         recycleviewForProductList.setAdapter(productListAdapter);
 
         recycleviewForServiceList.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false));
-        recycleviewForServiceList.setAdapter(productListAdapter);
+        recycleviewForServiceList.setAdapter(serviceListAdapter);
 
     }
 
