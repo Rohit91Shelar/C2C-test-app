@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">C2C</string>
+    <string name="enterEmail">Enter email</string>
+    <string name="enterPassword">Enter password</string>
+    <string name="login">Login</string>
+    <string name="didntHaveAccount">Didn\'t have an account? Create it!</string>
+    <string name="forgotPassword">Forgot password?</string>
+    <string name="hintEmail">Enter your email address</string>
+    <string name="send">Send</string>
+    <string name="verify">Verify Code</string>
+    <string name="hintVerificationCode">Enter verification code send to your email</string>
+    <string name="thirdPartyLogin">Third Party Account Login</string>
+    <string name="signIn">Sign In</string>
+    <string name="userName">User Name</string>
+    <string name="password">Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="signUp">Sign Up</string>
+    <string name="texttestingItem">Test Item</string>
+    <string name="samplePrice">$ 1100</string>
+    <string name="services">Services</string>
+    <string name="more">More ></string>
+    <string name="products">Product list</string>
 </resources>

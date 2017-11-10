@@ -7,6 +7,9 @@ package com.numeroeins.uniflea.utility;
 public class Constants {
 
 
-    public static final String URL = "";
-    public static final String LOGIN_API = "";
+    public static final String URL = "http://clients.yellowsoft.in/c2c/api";
+    public static final String LOGIN_API = "login.php";
+
+
+
 }
