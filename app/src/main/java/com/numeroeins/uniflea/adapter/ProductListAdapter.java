@@ -43,7 +43,7 @@ public class ProductListAdapter extends RecyclerView.Adapter<ProductListAdapter.
     @Override
     public void onBindViewHolder(final ViewHolder holder, final int position) {
         Product product=productsList.get(position);
-        holder.productPrice.setText(product.getProductPrice());
+        holder.productPrice.setText("$ "+product.getProductPrice());
         holder.productName.setText(product.getProductName());
         holder.productImage.setImageResource(product.getProductImage());
         if (product.isLike())
